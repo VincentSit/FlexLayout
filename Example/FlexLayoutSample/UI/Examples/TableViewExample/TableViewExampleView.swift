@@ -76,4 +76,16 @@ extension TableViewExampleView: UITableViewDataSource, UITableViewDelegate {
         // WANRING: You must also set the UITableView.estimatedRowHeight for this to work.
         return UITableViewAutomaticDimension
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        let cell = tableView.cellForRow(at: indexPath) as! MethodCell
+        let randomIndex = Int(arc4random_uniform(UInt32(methods.count) - 1))
+        let method = methods[randomIndex]
+        cell.configure(method: method)
+        
+        tableView.beginUpdates()
+        tableView.endUpdates()
+    }
 }

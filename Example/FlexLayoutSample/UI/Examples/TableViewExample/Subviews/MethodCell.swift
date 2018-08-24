@@ -21,7 +21,7 @@ class MethodCell: UITableViewCell {
     fileprivate let padding: CGFloat = 10
     
     fileprivate let nameLabel = UILabel()
-    fileprivate let descriptionLabel = UILabel()
+    fileprivate let descriptionLabel = CustomView()
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -34,8 +34,8 @@ class MethodCell: UITableViewCell {
         nameLabel.font = UIFont.boldSystemFont(ofSize: 14)
         nameLabel.lineBreakMode = .byTruncatingTail
         
-        descriptionLabel.font = UIFont.systemFont(ofSize: 12)
-        descriptionLabel.numberOfLines = 0
+//        descriptionLabel.font = UIFont.systemFont(ofSize: 12)
+//        descriptionLabel.numberOfLines = 0
 
         // Use contentView as the root flex container
         contentView.flex.padding(12).define { (flex) in

@@ -35,6 +35,7 @@
 		24FB883E1F59CA8B00615D33 /* TableViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB883C1F59CA8B00615D33 /* TableViewExampleViewController.swift */; };
 		24FB88411F59CA9A00615D33 /* MethodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB883F1F59CA9A00615D33 /* MethodCell.swift */; };
 		24FB88421F59CA9A00615D33 /* MethodGroupHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB88401F59CA9A00615D33 /* MethodGroupHeader.swift */; };
+		9398B307213016BC00D0E04C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9398B306213016BC00D0E04C /* CustomView.swift */; };
 		DF0E852B1F1F749C00AB1956 /* YogaExampleBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0E85291F1F749C00AB1956 /* YogaExampleBView.swift */; };
 		DF0E852C1F1F749C00AB1956 /* YogaExampleBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0E852A1F1F749C00AB1956 /* YogaExampleBViewController.swift */; };
 		DF1F2A091F17D11700BA1B97 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439CC331E665BF6003326FB /* MenuView.swift */; };
@@ -90,12 +91,13 @@
 		24C0F20F1F4EE9B20050BEE7 /* Show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Show.swift; sourceTree = "<group>"; };
 		24E835141F4CC336009F95CC /* RaywenderlichTutorialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaywenderlichTutorialView.swift; sourceTree = "<group>"; };
 		24E835151F4CC336009F95CC /* RaywenderlichTutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RaywenderlichTutorialViewController.swift; sourceTree = "<group>"; };
-		24FB883B1F59CA8B00615D33 /* TableViewExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExampleView.swift; sourceTree = "<group>"; };
+		24FB883B1F59CA8B00615D33 /* TableViewExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = TableViewExampleView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		24FB883C1F59CA8B00615D33 /* TableViewExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewExampleViewController.swift; sourceTree = "<group>"; };
-		24FB883F1F59CA9A00615D33 /* MethodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodCell.swift; sourceTree = "<group>"; };
+		24FB883F1F59CA9A00615D33 /* MethodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = MethodCell.swift; sourceTree = "<group>"; tabWidth = 4; };
 		24FB88401F59CA9A00615D33 /* MethodGroupHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MethodGroupHeader.swift; sourceTree = "<group>"; };
 		82FCE524E22C2FF5BC4DFBAB /* Pods_FlexLayoutSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexLayoutSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8561ACDBCFFA1B4B9ABEAB16 /* Pods-FlexLayoutSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLayoutSample.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-FlexLayoutSample/Pods-FlexLayoutSample.debug.xcconfig"; sourceTree = "<group>"; };
+		9398B306213016BC00D0E04C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		DF0E85291F1F749C00AB1956 /* YogaExampleBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogaExampleBView.swift; sourceTree = "<group>"; };
 		DF0E852A1F1F749C00AB1956 /* YogaExampleBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YogaExampleBViewController.swift; sourceTree = "<group>"; };
 		DF1F2A221F17D11700BA1B97 /* FlexLayoutSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexLayoutSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				24FB883F1F59CA9A00615D33 /* MethodCell.swift */,
+				9398B306213016BC00D0E04C /* CustomView.swift */,
 				24FB88401F59CA9A00615D33 /* MethodGroupHeader.swift */,
 			);
 			path = Subviews;
@@ -479,6 +482,7 @@
 				24901F0C1F93D40F0025D11B /* CollectionViewExampleView.swift in Sources */,
 				DF0E852C1F1F749C00AB1956 /* YogaExampleBViewController.swift in Sources */,
 				DF1F2A091F17D11700BA1B97 /* MenuView.swift in Sources */,
+				9398B307213016BC00D0E04C /* CustomView.swift in Sources */,
 				24AADD4C1F4E177700CB77E6 /* ExpandedTableView.swift in Sources */,
 				DF91747F1F1F6F9A0034632D /* YogaExampleAView.swift in Sources */,
 				24FB88421F59CA9A00615D33 /* MethodGroupHeader.swift in Sources */,
